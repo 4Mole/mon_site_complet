@@ -1,0 +1,12 @@
+page principale header/footer/menu
+-tableau html
+-article
+-video
+-audio
+-caroussel défilement image
+-une page jeu morpion JS
+
+
+se faire un cv
+
+faire un jeu de morpion JS
