@@ -1,0 +1,132 @@
+body{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #4f2f2f;
+}
+
+nav a:hover{
+    color: rgba(255, 215, 0, 0.8);
+}
+
+
+.logo_img{
+    width: 80px;
+    height: 80px;
+    margin-left: 30%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 30%;
+    font-size: 1.5em;
+}
+
+.master_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: url(../images/mountain-landscape-2031539_1920.jpg) center;
+    box-shadow: 1px 1px 2px 5px #4f2f2f;
+    border: 5px #4f2f2f solid;
+    height: 830px;
+    margin-bottom: 100px;
+}
+
+.master_head h1{
+    font-size: 4em;
+    margin-bottom: 2px;
+}
+
+.master_head h2{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.button_see_more{
+    font-size: 1.4em;
+    color: #FFD700;
+    background-color: #4f2f2f;
+    border: 2px #3f4f2f solid;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+}
+
+.presentation{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background-color:#4f2f2f;
+    color: white;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.presentation p{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.section_1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color:rgb(47, 79, 79);
+    border: 3px #3f4f2f solid
+}
+
+.section_2{
+    display: flex;
+    align-items: center;
+    background-color:rgb(47, 79, 79);
+    border: 3px #3f4f2f solid
+}
+
+.img_1, .img_2{
+    height: 500px;
+}
+.img_1{
+    background-size: cover;
+}
+.img_2{
+    background-size: cover;
+}
+
+.presentation_link{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+
+.presentation_link a{
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.presentation_link a:hover{
+    color: rgba(255, 215, 0, 0.8);
+}
+
+
+
+

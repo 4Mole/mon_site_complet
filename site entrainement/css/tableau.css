@@ -1,0 +1,90 @@
+body{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #4f2f2f;
+}
+
+nav a:hover{
+    color: rgba(255, 215, 0, 0.8);
+}
+
+
+.logo_img{
+    width: 80px;
+    height: 80px;
+    margin-left: 30%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 30%;
+    font-size: 1.5em;
+}
+
+.master_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(119, 136, 153, 0.8), rgba(112, 128, 144, 0.5)), url(../images/mountain-landscape-2031539_1920.jpg) center;
+    box-shadow: 1px 1px 2px 5px #4f2f2f;
+    border: 5px #4f2f2f solid;
+    height: 830px;
+    margin-bottom: 100px;
+    overflow: scroll;
+}
+
+.master_head h1{
+    margin-top: 250px;
+    margin-bottom: -50px;
+    font-size: 3em;
+    color: rgb(47, 79, 79);
+}
+
+.tableau{
+    caption-side: bottom;
+    width: 95%;
+    height: 95%;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tableau thead{
+    height: 120px;
+}
+
+.tableau td, th{
+    border: 2px white solid;
+    height: 150px;
+}
+
+.tableau caption{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.tableau td{
+    font-size: 2em;
+}
+
+.tableau th{
+    background: linear-gradient(to bottom, rgba(79, 47, 47, 0.8), rgba(101, 73, 73, 0.8), rgba(79, 47, 47, 0.8));
+    font-size: 2.5em;
+}
